@@ -1,0 +1,124 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: blue;   
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    justify-content: center;
+    height:auto;
+    width: 700px;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 800; 
+}
+
+.header{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 800;
+    /* color: lightgreen; */
+
+}
+
+#current-time{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.user-input input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+button:hover{
+    cursor: pointer;
+    transition: all 0.5;
+
+}
+
+.timelist-button{
+    margin-right: auto;
+}
+
+
+
+
+hr {
+    width: 60%;
+    border-color: red;
+}
+
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.timelist{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+li{
+    text-align: -webkit-match-parent;
+}
+
+button{
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+/* @media (min-width: 350px) {
+    .container{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+} */
+
+
